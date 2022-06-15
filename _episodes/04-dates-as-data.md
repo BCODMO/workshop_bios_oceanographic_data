@@ -76,6 +76,10 @@ There are several solutions to get around this, which depends on the way that yo
 
 Such strings will be correctly sorted in ascending or descending order, and by knowing the format they can then be correctly processed by the receiving software.
 
+> ## Balancing the needs of analysis and preservation and data reuse. 
+> If you need to use other date formats during your analysis, make sure to use a best-practice format when sharing your data and exporting final data for preservation (more on exporting later).
+{: .callout}
+
 ## ISO 8601 Standard
 
 ISO 8601 is an international standard covering the communication of date and time related data. (Source wikipedia)
@@ -83,7 +87,6 @@ ISO 8601 is an international standard covering the communication of date and tim
 <img src="../fig/iso8601.png" alt="iso" style="width:30%;" />
 
 Standards in date and time notation are very important. For example the todays date June 15, 2022 is written in America as 06/15/22, while in Canada it is written as 15/06/2022. 
-
 
 ## Whatever format you decide to use, document it
 
