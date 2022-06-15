@@ -19,7 +19,9 @@ We know now that we can use spreadsheets for data entry. The most **common mista
 
 Using the power of computers, we can manage and analyze data in much more effective and faster ways, but to use that power, we have to **set up our data for the computer to be able to understand it** (and computers are very literal).
 
-<img src="../fig/labnotes.png" alt="data-life-cycle-acquisition" style="zoom:30%;" />
+<img src="../fig/labnotes.png" alt="data-life-cycle-acquisition" style="width:70%;" />
+
+
 
 Spreadsheet-like lab notebook:
 
