@@ -12,7 +12,7 @@ keypoints:
 - "Treating dates as multiple pieces of data rather than one makes them easier to handle."
 ---
 
-## Dates are finicky
+# Dates are finicky
 
 ## Dates in Excel
 Date formats in excel need special attention. There are many numerous “useful features” which allow them to handle dates in a variety of ways.
@@ -25,7 +25,7 @@ Those visualizations of dates are valid for a given spreadsheet program (be it L
 
 Additionally, Excel can **[turn things that aren't dates into dates](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/)**, for example names or identifiers like MAR1, DEC1, OCT4. So if you're avoiding the date format overall, it's easier to identify these issues. 
 
-<img src="../fig/datetime-example.png" alt="mistakes-dates" style="width:90%;" />
+<img src="../fig/datetime-example.png" alt="mistakes-dates"  />
 
 <img src="../fig/date-excel-meme.png" alt="excel-meme" style="width:40%;" />
 
@@ -56,9 +56,7 @@ All excel cells have a value in them that have a format on top of them which is 
 * When you open a file in excel, it sometimes tries to interpret data as dates, sometimes it interprets the wrong format. 
 * When opening excel files in other programs, that program might not interpret the format correctly. For example, opening an excel file in python will show the integer/number value of that cell, rather than the date. 
 
-
-
-## Best Practices in Notation?
+## Best Practices in Date Formatting?
 
 There are several solutions to get around this, which depends on the way that you are using dates. As long as it is **described and consistent in your date column**. 
 
@@ -78,6 +76,10 @@ There are several solutions to get around this, which depends on the way that yo
 
 Such strings will be correctly sorted in ascending or descending order, and by knowing the format they can then be correctly processed by the receiving software.
 
+> ## Balancing the needs of analysis, preservation and data reuse. 
+> If you need to use other date formats during your analysis, make sure to use a best-practice format when sharing your data and exporting final data for preservation (more on exporting later).
+{: .callout}
+
 ## ISO 8601 Standard
 
 ISO 8601 is an international standard covering the communication of date and time related data. (Source wikipedia)
@@ -85,7 +87,6 @@ ISO 8601 is an international standard covering the communication of date and tim
 <img src="../fig/iso8601.png" alt="iso" style="width:30%;" />
 
 Standards in date and time notation are very important. For example the todays date June 15, 2022 is written in America as 06/15/22, while in Canada it is written as 15/06/2022. 
-
 
 ## Whatever format you decide to use, document it
 
