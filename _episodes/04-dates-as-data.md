@@ -104,11 +104,9 @@ Documenting the format you use is very important.  If you share your data in Exc
 * image by Artem Karimov,TopoChecker (2019)
 <img src='../fig/year_global_legend.png' style="width:25%">
 
-
-
-
-
-
-
-
-
+> ## Don't forget about time zones!
+>
+> If you record times, document the time zone it is in.  Is it your local time zone? What is that? Is it in Universal Time Coordinated (UTC)? [More about UTC and GMT](https://www.nhc.noaa.gov/aboututc.shtml)
+> 
+> > - UTC time zone is the standard used for instruments on oceanographic cruises.  Imagine traveling back and forth across different time zones during your research.  You don't want your time series to jump to different local times!  That makes using the data so difficult and sometimes impossible.
+{: .callout}
