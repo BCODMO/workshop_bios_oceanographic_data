@@ -25,9 +25,9 @@ Those visualizations of dates are valid for a given spreadsheet program (be it L
 
 Additionally, Excel can **[turn things that aren't dates into dates](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/)**, for example names or identifiers like MAR1, DEC1, OCT4. So if you're avoiding the date format overall, it's easier to identify these issues. 
 
-<img src="../fig/datetime-example.png" alt="mistakes-dates" style="zoom:30%;" />
+<img src="../fig/datetime-example.png" alt="mistakes-dates" style="width:70%;" />
 
-<img src="../fig/date-excel-meme.png" alt="excel-meme" style="zoom:10%;" />
+<img src="../fig/date-excel-meme.png" alt="excel-meme" style="width:50%;" />
 
 ## What you see is not what everyone gets...
 
@@ -102,7 +102,7 @@ Documenting the format you use is very important.  If you share your data in Exc
 >
 > ![dates by country](https://upload.wikimedia.org/wikipedia/commons/9/97/Date_format_by_country_NEW.svg)
 * image by Artem Karimov,TopoChecker (2019)
-<img src='../fig/year_global_legend.png' style="width:200px">
+<img src='../fig/year_global_legend.png' style="width:30%">
 
 
 
