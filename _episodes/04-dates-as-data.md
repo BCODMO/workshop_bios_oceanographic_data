@@ -94,11 +94,11 @@ Documenting the format you use is very important.  If you share your data in Exc
 > Example: Ambiguous dates
 > 
 > You have a date in your dataset **11/4/12**.
-> If you are in America you may assume this is **November 4th, 2012**.
-> If you are in Europe you may assume this is **April 11th, 2012**.
-> If you are in Japan you may assume this is **April 12th, 2011**
+> - In America you may assume this is **November 4th, 2012**.
+> - In Europe you may assume this is **April 11th, 2012**.
+> - In Japan you may assume this is **April 12th, 2011** 
 >
-> To be FAIR you have to think globally.  How do you make sure everyone can understand your data?  Describe it!
+> To be FAIR you have to think globally.  
 >
 > ![dates by country](https://upload.wikimedia.org/wikipedia/commons/9/97/Date_format_by_country_NEW.svg)
 * image by Artem Karimov,TopoChecker (2019)
