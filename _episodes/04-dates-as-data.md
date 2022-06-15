@@ -76,7 +76,7 @@ There are several solutions to get around this, which depends on the way that yo
 
 Such strings will be correctly sorted in ascending or descending order, and by knowing the format they can then be correctly processed by the receiving software.
 
-> ## Balancing the needs of analysis and preservation and data reuse. 
+> ## Balancing the needs of analysis, preservation and data reuse. 
 > If you need to use other date formats during your analysis, make sure to use a best-practice format when sharing your data and exporting final data for preservation (more on exporting later).
 {: .callout}
 
