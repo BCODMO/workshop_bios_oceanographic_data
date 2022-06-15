@@ -34,7 +34,7 @@ Most researchers have data or do **data entry** in spreadsheets. Spreadsheet pro
 
 Many spreadsheet programs are available. Since most participants utilize Excel as their primary spreadsheet program, this lesson will make use of Excel examples.
 
-<img src="../fig/survey-results-tools.png" alt="data-types" style="zoom:10%;" />
+<img src="../fig/survey-results-tools.png" alt="data-types" style="width:80%;" />
 
 
 
@@ -42,7 +42,7 @@ NOTE: Excel is **proprietary software**, which means that it is owned by a compa
 
 
 
-<img src="../fig/libreoffice-excel.png" alt="data-types" style="zoom:10%;" />
+<img src="../fig/libreoffice-excel.png" alt="data-types" style="width:70%;" />
 
 
 
