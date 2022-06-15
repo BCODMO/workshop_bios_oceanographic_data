@@ -82,7 +82,7 @@ Such strings will be correctly sorted in ascending or descending order, and by k
 
 ISO 8601 is an international standard covering the communication of date and time related data. (Source wikipedia)
 
-<img src="../fig/iso8601.png" alt="iso" style="width:50%;" />
+<img src="../fig/iso8601.png" alt="iso" style="width:30%;" />
 
 Standards in date and time notation are very important. For example the todays date June 15, 2022 is written in America as 06/15/22, while in Canada it is written as 15/06/2022. 
 
