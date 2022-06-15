@@ -56,9 +56,7 @@ All excel cells have a value in them that have a format on top of them which is 
 * When you open a file in excel, it sometimes tries to interpret data as dates, sometimes it interprets the wrong format. 
 * When opening excel files in other programs, that program might not interpret the format correctly. For example, opening an excel file in python will show the integer/number value of that cell, rather than the date. 
 
-
-
-## Best Practices in Notation?
+## Best Practices in Date Formatting?
 
 There are several solutions to get around this, which depends on the way that you are using dates. As long as it is **described and consistent in your date column**. 
 
