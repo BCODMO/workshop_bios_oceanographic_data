@@ -3,13 +3,17 @@ title: "Formatting Data Tables"
 teaching: 10
 exercises: 10
 questions:
-- "How do we format data in spreadsheets for effective data use?"
+- "Why is formatting data tables important?"
+- "Why should I track analysis?"
+- "How to structure data in spreadsheets?"
 objectives:
+- "Understand difference between spreadsheets and lab notebooks"
 - "Describe best practices for data entry and formatting in spreadsheets."
 - "Apply best practices to arrange variables and observations in a spreadsheet."
 keypoints:
-- "Never modify your raw data. Always make a copy before making any changes."  
-- "Keep track of all of the steps you take to clean your data in a plain text file."  
+- "Computers need to be able to understand data tables"
+- "Never modify your raw data."  
+- "Keep track of all of the steps you take to clean your data."  
 - "Organize your data according to tidy data principles."  
 ---
 

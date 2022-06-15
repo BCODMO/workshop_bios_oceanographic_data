@@ -9,15 +9,16 @@ questions:
 objectives:
 - Use spreadsheets appropriately in research projects"
 keypoints:
-- "Good Data Management practices for tabular data."
-- "Working with a real life data example"
+- "Data organization starts at the sampling phase of a reserach project."
+- "Spreadsheets are good for data entry, but we use them for a lot more like formatting tables for publication and figures."
+- "Not all data is tabular."
 ---
 
 ### Data organization and the data life cycle
 
 Good data organization is the foundation of your research project and should already be taken into account in the acquisition phase of a research project. 
 
-<img src="../fig/data-life-cycle-acquisition.png" alt="data-life-cycle-acquisition" style="zoom:10%;" />
+<img src="../fig/data-life-cycle-acquisition.png" alt="data-life-cycle-acquisition" style="width:30%;" />
 
 The structure and format of datasets can be planned and described in the proposal stage of a research project and is captured in a document called the **data management plan** (DMP).
 
