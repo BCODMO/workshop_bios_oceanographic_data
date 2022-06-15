@@ -25,7 +25,7 @@ Those visualizations of dates are valid for a given spreadsheet program (be it L
 
 Additionally, Excel can **[turn things that aren't dates into dates](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/)**, for example names or identifiers like MAR1, DEC1, OCT4. So if you're avoiding the date format overall, it's easier to identify these issues. 
 
-<img src="../fig/datetime-example.png" alt="mistakes-dates" style="width:90%;" />
+<img src="../fig/datetime-example.png" alt="mistakes-dates"  />
 
 <img src="../fig/date-excel-meme.png" alt="excel-meme" style="width:40%;" />
 
