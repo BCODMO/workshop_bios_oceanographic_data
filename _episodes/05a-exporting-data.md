@@ -20,7 +20,7 @@ Storing the data you're going to work with for your analyses in Excel default fi
   
 - Other spreadsheet software may not be able to open files saved in a proprietary Excel format.
   
-- Different versions of Excel may handle data differently, leading to inconsistencies.
+- Different versions of Excel may handle data differently, leading to inconsistencies. (especially dates)
   
 - Finally, more journals and grant agencies are requiring you to deposit your data in a data repository, and most of them don't accept Excel format. It needs to be in one of the formats discussed below.
   
@@ -30,7 +30,7 @@ As an example of inconsistencies in data storage, do you remember how we talked 
 
 ### The CSV format
 
-Storing data in a universal, open, and static format will help deal with this problem. Try tab-delimited (tab separated values or TSV) or comma-delimited (comma separated values or CSV). CSV files are **plain text files** where the **columns are separated by commas**, hence 'comma separated values' or CSV. 
+Storing data in a universal, open, and static format will help deal with this problem. Try tab-delimited (tab separated values or TSV) or comma-delimited (comma separated values or CSV). CSV files are **plain text files** (free of computer tags, special formatting, and code) where the **columns are separated by commas**, hence 'comma separated values' or CSV. 
 
 The advantage of a CSV file over an Excel/SPSS/etc. file is that we can open and read a CSV file using just about any software, including plain text editors like TextEdit or NotePad.  Data in a CSV file can also be easily imported into other formats and environments, such as SQLite, R, Python and QGIS. We're not tied to a certain version of a certain expensive program when we work with CSV files, so it's a good format to work with for maximum portability and endurance. 
 

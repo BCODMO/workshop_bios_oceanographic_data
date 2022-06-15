@@ -53,8 +53,7 @@ After this lesson, you will be able to:
 
 ### Content
 
-1. 
-2. Assessing metadata
+1. Assessing metadata
 3. Download data
 4. Data manipulation in spreadsheets
-8. What is Next? 
+8. What is next? 
