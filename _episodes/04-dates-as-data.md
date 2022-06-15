@@ -60,80 +60,23 @@ All excel cells have a value in them that have a format on top of them which is 
 
 ## Best Practices in Notation?
 
-There are several solutions to get around this, which depends on the way that you are using dates. 
+There are several solutions to get around this, which depends on the way that you are using dates. As long as it is **described and consistent in your date column**. 
 
-* s
-* 
+* year, month day in separate columns
+* year, day of year in separate columns
+* Storing dates as a single string:  Another alternative could be to convert the date string
+  into a single string using the `YYYYMMDDhhmmss` format.
+  For example the date `March 24, 2015 17:25:35` would
+  become `20150324172535`, where:
 
-As long as it is described and consistent in your date column. 
+​		YYYY:   the full year, i.e. 2015  
+​		MM:     the month, i.e. 03  
+​		DD:     the day of month, i.e. 24  
+​		hh:     hour of day, i.e. 17  
+​		mm:     minutes, i.e. 25  
+​		ss:     seconds, i.e. 35  
 
-
-
-
-
-
-
-
-
-
-
-
-## Preferred date format
-
-It is much safer to store dates with [YEAR, MONTH, DAY](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
-
-**Note**: Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
-
-Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this, [dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off). 
-
-
-
-### Advantages of Alternative Date Formatting
-
-###  Storing dates as YEAR, MONTH, DAY
-
-Storing dates in YEAR, MONTH, DAY format helps remove this ambiguity. Let's look at this issue a bit closer.
-
-For instance this is a spreadsheet representing insect counts that were taken every few days over the summer, and things went something like this:
-
-![So, so ambiguous, it's even confusing Excel](../fig/6_excel_dates_2.jpg)
-
-If Excel was to be believed, this person had been collecting bugs **in the future**. Now, we have no doubt this person is highly capable, but I believe time travel was beyond even their grasp.
-
-Entering dates in one cell is helpful but due to the fact that the spreadsheet programs may interpret and save the data in different ways (doing that somewhat behind the scenes), there is a better practice.  
-
-In dealing with dates in spreadsheets, separate date data into separate fields (day, month, year), which will eliminate any chance ofambiguity. 
-
-### Storing dates as YEAR, DAY-OF-YEAR
-
-There is also another option. You can also store dates as year and day of year (DOY). Why? Because depending on your
-question, this might be what's useful to you, and there is practically no possibility for ambiguity creeping in.
-
-Statistical models often incorporate year as a factor, or a categorical variable, rather than a numeric variable, to account for 
-year-to-year variation, and DOY can be used to measure the passage of time within a year. 
-
-So, can you convert all your dates into DOY format? Well, in Excel, here’s a useful guide:
-
-![Kill that ambiguity before it bites you!](../fig/7_excel_dates_3.jpg)
-
-###  Storing dates as a single string
-
-Another alternative could be to convert the date string
-into a single string using the `YYYYMMDDhhmmss` format.
-For example the date `March 24, 2015 17:25:35` would
-become `20150324172535`, where:
-
-
-YYYY:   the full year, i.e. 2015  
-MM:     the month, i.e. 03  
-DD:     the day of month, i.e. 24  
-hh:     hour of day, i.e. 17  
-mm:     minutes, i.e. 25  
-ss:     seconds, i.e. 35  
-
-Such strings will be correctly sorted in ascending or descending order, and by
-knowing the format they can then be correctly processed by the receiving
-software.
+Such strings will be correctly sorted in ascending or descending order, and by knowing the format they can then be correctly processed by the receiving software.
 
 ## ISO 8601 Standard
 
@@ -142,3 +85,19 @@ ISO 8601 is an international standard covering the communication of date and tim
 <img src="../fig/iso8601.png" alt="iso" style="zoom:30%;" />
 
 Standards in date and time notation are very important. For example the todays date June 15, 2022 is written in America as 06/15/22, while in Canada it is written as 15/06/2022. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
