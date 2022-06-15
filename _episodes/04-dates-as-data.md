@@ -12,7 +12,7 @@ keypoints:
 - "Treating dates as multiple pieces of data rather than one makes them easier to handle."
 ---
 
-## Dates are finicky
+# Dates are finicky
 
 ## Dates in Excel
 Date formats in excel need special attention. There are many numerous “useful features” which allow them to handle dates in a variety of ways.
