@@ -4,20 +4,14 @@ teaching: 2
 exercises: 0
 questions:
 - "What will we cover this morning?"
-objectives:
-- "Overview of Data Wrangling Aspects"
-keypoints:
-- "Good Data Management practices for tabular data."
-- "Working with a real life data example"
+
 ---
 
 ## Deep Dive into Data Management
 
 So far we have tackled the general concepts around data management: F.A.I.R concepts and the data life cycle. And where BCO-DMO fits in that picture. 
 
-
-
-![recap](../fig/recap.png)
+<img src="../fig/recap.png" alt="recap" style="width:80%;" />
 
 F.A.I.R geared toward data curators rather than individual researchers, and to facilitate machine accessibility of data in addition to human readability. But you should endeavor to use resources that help move your data closer to being FAIR. BCO-DMO engages in all of the FAIR principles.
 
@@ -25,7 +19,7 @@ There are steps individual researchers can take to increase the “fairness” o
 
 ### Part 1: Good approaches to Tabular Data Formatting
 
-Spreadsheets are good for data entry. Therefore we have a lot of data in spreadsheets. Much of your time as a researcher will be spent in this 'data wrangling' stage. It's not the most fun, but it's necessary. We'll teach you how to think about data organization and some practices for more effective data wrangling. After this lesson, you will be able to:
+Spreadsheets are good for data entry. We have a lot of data in spreadsheets. Much of your time as a researcher will be spent in this 'data wrangling' stage. It's not the most fun, but it's necessary. We'll teach you how to think about data organization and some practices for more effective data wrangling. After this lesson, you will be able to:
 - Implement best practices in data table formatting  
 - Identify and address common formatting mistakes
 - Understand approaches for handling dates in spreadsheets
@@ -51,7 +45,7 @@ After this lesson, you will be able to:
 - Create good records and metadata to help your future self, and enable FAIR data.
 - Learn about about other methods and tools for using data outside of spreadsheets.
 
-### Content
+Table of content:
 
 1. Assessing metadata
 3. Download data
